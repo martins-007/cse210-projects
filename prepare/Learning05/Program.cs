@@ -1,9 +1,10 @@
-using System;
-
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning05 World!");
+        // Test the WritingAssignment class
+        WritingAssignment writingAssignment = new WritingAssignment("Martins George", "European History", "The Causes of World War II");
+        Console.WriteLine(writingAssignment.GetSummary());
+        Console.WriteLine(writingAssignment.GetWritingInformation());
     }
 }
